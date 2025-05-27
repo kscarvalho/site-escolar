@@ -2,17 +2,20 @@
     box-sizing: border-box;
 }
 
-body,
-h1, h2, p{
+body{
 max-width: 1366px;  
 margin: 0;
 margin-bottom: 20px;
+height: 3000px;
 }
 
 h1{
   color: #0D4715;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin: 0px 70px;
+}
+
+h2{
+  margin: 0px 0px 20px 0px;
 }
 
 
@@ -105,7 +108,7 @@ iframe{
 }
 
 .container-ciclos p{
-  margin-bottom: 0px;
+  margin: 0px 0px;
 }
 
 
