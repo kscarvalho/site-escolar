@@ -1,0 +1,47 @@
+/*SLIDER*/
+.slider {
+    margin: 0 auto;
+    width: 87%;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+    position: relative;
+    
+}
+
+.slides {
+display: flex;
+width: 500%;
+animation: slide 15s infinite;
+height: 400px; 
+}
+
+.slides img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+@keyframes slide {
+    10%  {margin-left: 0;}
+    20%  {margin-left: 0;}
+    25%  {margin-left: -100%;}
+    45%  {margin-left: -100%;}
+    50%  {margin-left: -200%;}
+    70%  {margin-left: -200%;}
+    75%  {margin-left: -300%;}
+    95%  {margin-left: -300%;}
+    100% {margin-left: -400%;}
+}
+
+.bar {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.6);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.bar:hover {
+    background-color: white;
+}
