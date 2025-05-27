@@ -114,6 +114,7 @@ iframe{
 .container-ciclos img{
   height: 450px;
   width: 350px;
+  border-radius: 5px;
 }
 
 .container-ciclos p{
@@ -133,10 +134,36 @@ color: #16C47F;
 .ensino-medio{
 color: #6D28D9;
   
-  
 }
 
+/*INICIO DO FOOTER*/
 
+.container-footer{
+  display: flex;
+  gap: 60px;
+  background-color: #0D4715;
+  height: 300px;
+  margin-top: 60px;
+}
+
+.footer a{
+  display: block;
+  font-family: sans-serif;
+  color: #fff;
+  margin-top: 20px;
+  margin-left: 70px;
+  text-decoration: none;
+}
+
+.redes{
+  display: flex;
+  width: 40px;
+  gap: 20px;
+}
+
+.redes img{
+  width: 40px;
+}
 
 
 
