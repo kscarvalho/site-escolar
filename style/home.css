@@ -2,12 +2,19 @@
     box-sizing: border-box;
 }
 
-body {
-max-width: 1250px;  
+body,
+h1, h2, p{
+max-width: 1366px;  
 margin: 0;
-font-family: Arial, sans-serif;
-height: 2000px;
+margin-bottom: 20px;
 }
+
+h1{
+  color: #0D4715;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
 
 /*INICIO MENU-SUPERIOR*/
 .menu-superior {
@@ -19,13 +26,13 @@ height: 2000px;
 }
 
 .menu-superior span{
-  color: #255F38;;
+  color: #0D4715;
   font-size: 10px;
   font-weight: bold;
 }     
 
 .menu-superior p{
-  color: #255F38;;
+  color: #0D4715;
   font-size: 24px;
   font-weight: bold;
   margin: 0px;
@@ -36,98 +43,69 @@ ul {
   gap: 20px;
   list-style-type: none;
   margin: 0px;
-  color: #255F38;;
+  color: #0D4715;
   font-weight: bold;
 }
 
 li{
-  font-size: 14px;
+  font-size: 16px;
   padding: 5px;
 }
 
+/*INICIO EDUCAÇÃP DE QUALIDADE*/
+.container-educacao{
+  display: flex;
+  height: 400px;
+  margin: 40px 70px 40px 70px;
+
+}
+
 .educacao-de-qualidade{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 60px;
-  gap: 30px;
+  max-width: 500px;
 }
-
 .educacao-de-qualidade h1{
-  font-size: 34px;
-  color: #255F38;;
-  margin: 0px;
-  height: 120px;
+  color: #0D4715;
+  margin: 0px 0px 20px;
+  max-width: 500px;
 }
 
-.div1 {
-  font-size: 14px;
-  color: #1F7D53;
-  grid-column: 1;
-  margin: 0px;
+.educacao-de-qualidade p{
+ color: #626F47;
 }
 
-.div1 a{
- display: inline-block; 
- font-size: 14px;
- color: #27391C;
- text-align: center;
- text-decoration: none;
+.educacao-de-qualidade a{
+ color: #0D4715; 
+ font-size: 16px; 
+ display: inline-block;
+ text-align: center; 
  font-weight: bold;
- background-color: #b8ff01;
- padding: 10px 20px 10px 20px;
+ text-decoration: none;
+ background-color: #FFCF50;
+ padding: 5px 40px;
+ 
 }
 
 
-iframe {
-            width: 500px;
-            height: 300px;
-            border: 3px solid #333;
-            grid-row: 5 / 0;
-            grid-column: 2;
-        }
-
+iframe{
+  width: 440px;
+  height: 300px;
+}
 
 
 /*INICIO NOSSOS-CICLOS*/
 
-
-.nossos-ciclos {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    height: 300px;
-    margin-right: 60px;
-    margin-left: 60px;
+.container-ciclos {
+  display: flex;
+  justify-content: center;
+  gap: 55px;
 }
 
-.nossos-ciclos div{
-  display: inline-block;
-  grid-row: 2;
-  text-align: center;
-  width: 300px;
+.container-ciclos img{
+  max-height: 400px;
 }
 
-.nossos-ciclos img{
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-}
-
-.nossos-ciclos h1{
-  color: #255F38;
-  margin: 0px;
-}
-
-.nossos-ciclos h2{
-  color: #255F38;
-  text-align: left;
-  margin-bottom: 10px;
-}
-
-.nossos-ciclos p{
-  color: #1F7D53;
-  text-align: left;
-  margin: 0px;
+.container-ciclos p{
+  margin-bottom: 0px;
 }
 
 
