@@ -3,6 +3,7 @@
 }
 
 body {
+max-width: 1250px;  
 margin: 0;
 font-family: Arial, sans-serif;
 height: 2000px;
